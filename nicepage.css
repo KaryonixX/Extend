@@ -34206,7 +34206,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 345px;
+  min-height: 381px;
 }
 
 .u-header .u-image-1 {
@@ -34234,7 +34234,11 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 
-
+@media (max-width: 767px) {
+  .u-header .u-text-3 {
+    margin-bottom: 60px;
+  }
+}
 
 .u-footer {
   background-image: none;
